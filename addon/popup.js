@@ -123,7 +123,7 @@ class App extends React.PureComponent {
                 `})
             )
           ),
-          "Salesforce inspector"
+          "Salesforce oauth inspector"
         ),
         h("div", {className: "main"},
           h(AllDataBox, {ref: "showAllDataBox", sfHost, showDetailsSupported: !inLightning && !inInspector, linkTarget, contextUrl}),
